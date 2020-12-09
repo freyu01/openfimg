@@ -14,3 +14,51 @@ with SoC featuring the FIMG-3DSE GPU (S5PC100, S5P6442).
 
 For more information, check out project wiki:
 https://github.com/tom3q/openfimg/wiki
+
+
+The below is some info on features of FIMG 3DSE Architecture.
+
+
+•  4M triangles/s @133MHz (Transform Only)
+
+•  75.8M pixels/s fill-rates @133MHz (shaded pixels)
+
+•  Programmable Shader Model 3.0 support
+
+•  128-bit (32-bit x 4) Floating-point Vertex Shader  
+
+  - Geometry-texture cache support
+
+•  128-bit (32-bit x 4) Floating-point two Fragment Shaders
+
+•  Max. 4K x 4K frame-buffer (16/32-bpp)
+
+•  32-bit depth buffer (8-bit stencil/24-bit Z)
+
+•  Texture format: 1/2/4/8/16/32-bpp RGB, YUV 422, S3TC Compressed
+
+•  Support max. 8 surfaces (max. 8 user-defined textures)
+
+•  API Support: OpenGL ES 1.1 & 2.0, D3D Mobile
+
+•  Intelligent Host Interface   
+
+  - 15 input data-types, Vertex Buffer & Vertex Cache
+
+•  H/W Clipping (Near & Far)
+
+•  8-stage five-threaded Shader architecture
+
+•  Primitive assembly & hard-wired triangle setup engine
+
+•  One pixels/cycle hard-wired rasterizer
+
+•  One texturing engine (one bilinear-filtered texel/cycle each)  
+
+  - Nearest/bilinear/trilinear filtering   
+
+  - 8-layered multi-texturing support
+
+•  Fragment processing: Alpha/Stencil/Z/Dither/Mask/ROP
+
+•  Memory bandwidth optimization through hierarchical caching   
